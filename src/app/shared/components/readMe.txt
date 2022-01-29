@@ -1,0 +1,1 @@
+En esta carpeta, se importan los componentes principales (visuales), de nuestra pagina principal

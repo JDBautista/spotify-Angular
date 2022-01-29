@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { TracksRoutingModule } from './tracks-routing.module';
-import { TrackPageComponent } from './pages/track-page/track-page.component';
+import { TracksPagesComponent } from './pages/tracks-pages/tracks-pages.component';
 
 
 @NgModule({
   declarations: [
-    TrackPageComponent
+    TracksPagesComponent
   ],
   imports: [
     CommonModule,

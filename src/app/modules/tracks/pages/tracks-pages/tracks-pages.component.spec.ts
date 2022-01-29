@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TrackPageComponent } from './track-page.component';
+import { TracksPagesComponent } from './tracks-pages.component';
 
-describe('TrackPageComponent', () => {
-  let component: TrackPageComponent;
-  let fixture: ComponentFixture<TrackPageComponent>;
+describe('TracksPagesComponent', () => {
+  let component: TracksPagesComponent;
+  let fixture: ComponentFixture<TracksPagesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TrackPageComponent ]
+      declarations: [ TracksPagesComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TrackPageComponent);
+    fixture = TestBed.createComponent(TracksPagesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,33 +1,35 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-side-bar',
-  templateUrl: './side-bar.component.html',
-  styleUrls: ['./side-bar.component.css']
+  selector: 'app-sidebar',
+  templateUrl: './sidebar.component.html',
+  styleUrls: ['./sidebar.component.css']
 })
-export class SideBarComponent implements OnInit {
-  mainMenu:{defaultOptions:Array<any>, accessLink:Array<any>}={
-    defaultOptions:[],
-    accessLink:[]
-  }
-  customOptions:Array<any>=[]
+export class SidebarComponent implements OnInit {
+
+  mainMenu: {
+    defaultOptions: Array<any>, accessLink: Array<any>
+  } = { defaultOptions: [], accessLink: [] }
+
+  customOptions: Array<any> = []
+
   constructor() { }
 
   ngOnInit(): void {
     this.mainMenu.defaultOptions = [
       {
         name: 'Home',
-        icon: 'uil uil-estate',
+        icon: 'uil-estate',
         router: ['/', 'auth']
       },
       {
         name: 'Buscar',
-        icon: 'uil uil-search',
+        icon: 'uil-search',
         router: ['/', 'history']
       },
       {
         name: 'Tu biblioteca',
-        icon: 'uil uil-chart',
+        icon: 'uil-chart',
         router: ['/', 'favorites'],
         query: { hola: 'mundo' }
       }
@@ -62,6 +64,7 @@ export class SideBarComponent implements OnInit {
         router: ['/']
       }
     ]
+
   }
 
 }

@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { FavoritesRoutingModule } from './favorites-routing.module';
-import { FavoritePageComponent } from './pages/favorite-page/favorite-page.component';
+import { FavoritePagesComponent } from './pages/favorite-pages/favorite-pages.component';
 
 
 @NgModule({
   declarations: [
-    FavoritePageComponent
+    FavoritePagesComponent
   ],
   imports: [
     CommonModule,

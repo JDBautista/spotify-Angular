@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HistoryPageComponent } from './history-page.component';
+import { MediaplayerComponent } from './mediaplayer.component';
 
-describe('HistoryPageComponent', () => {
-  let component: HistoryPageComponent;
-  let fixture: ComponentFixture<HistoryPageComponent>;
+describe('MediaplayerComponent', () => {
+  let component: MediaplayerComponent;
+  let fixture: ComponentFixture<MediaplayerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HistoryPageComponent ]
+      declarations: [ MediaplayerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HistoryPageComponent);
+    fixture = TestBed.createComponent(MediaplayerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

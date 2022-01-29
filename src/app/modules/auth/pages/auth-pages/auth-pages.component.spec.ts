@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MediaPlayerComponent } from './media-player.component';
+import { AuthPagesComponent } from './auth-pages.component';
 
-describe('MediaPlayerComponent', () => {
-  let component: MediaPlayerComponent;
-  let fixture: ComponentFixture<MediaPlayerComponent>;
+describe('AuthPagesComponent', () => {
+  let component: AuthPagesComponent;
+  let fixture: ComponentFixture<AuthPagesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MediaPlayerComponent ]
+      declarations: [ AuthPagesComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MediaPlayerComponent);
+    fixture = TestBed.createComponent(AuthPagesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
